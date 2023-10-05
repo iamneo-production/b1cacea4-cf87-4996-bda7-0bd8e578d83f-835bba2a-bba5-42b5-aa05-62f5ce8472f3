@@ -1,0 +1,102 @@
+.ima
+{
+    background: url("./wild.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.rectangle22
+{
+    position: absolute;
+    height: 700px;
+    width: 470px;
+    left: 95px;
+    top: 10px;
+    position: fixed;
+    background: rgba(217, 212, 212, 0.425);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+   
+}
+.img22
+{
+    position: absolute;
+    position: fixed;
+    left: 0px;
+    padding-right: 0%;
+    padding-top: 0px;
+}
+.head22
+{
+    position: absolute;
+    font-size: 150px;
+    font-style: normal;
+    font-family:helvetica;
+    letter-spacing: 10px;
+    font-weight: 500;
+    left:610px;
+    top: 50px;
+    color:rgba(235, 229, 227, 0.919);
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    position: fixed;
+}
+.form22
+{
+    font-size: 35px;
+    position: absolute;
+    top:30px;
+    left: 180px;
+    border: radius 200px;
+    color:rgba(255, 255, 255, 0.47);
+    size:1px;
+    
+}
+::placeholder
+{
+    font-size: 20px;
+   
+}
+input[type=text200]
+{
+   
+    
+    height: 40px;
+    font-size: 20px;
+    width: 300px;
+    border-radius: 10px;
+} 
+input[type=text300]
+{
+   
+    size: 22;
+    height: 40px;
+    font-size: 10px;
+    width: 220px;
+} 
+input[type=password400]
+{
+  
+    height: 30px;
+    width: 20px;
+    font-size: 2px;
+    
+}
+.but22
+{
+    position: absolute;
+    border-radius: 100px;
+    background: #d9d9d9;
+    width: 150px;
+    height: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 39px;
+    color: #000000;
+    left: 70px;
+    top: 600px;
+    
+}

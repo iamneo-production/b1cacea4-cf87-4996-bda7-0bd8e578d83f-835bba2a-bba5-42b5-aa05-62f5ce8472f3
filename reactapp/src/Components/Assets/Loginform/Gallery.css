@@ -1,0 +1,152 @@
+.tri
+{
+    position: absolute;
+    width: 488px;
+    height: 500px;
+    left: 250px;
+    top: 95px;
+    background: rgba(159, 7,83, 0.24);
+}
+.g1
+{
+    background: url("./g1.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 500px;
+    width: 488px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+.tri1
+{
+    position: absolute;
+    width: 488px;
+    height: 500px;
+    left: 950px;
+    top: 95px;
+    background: rgba(159, 7,83, 0.24);
+}
+.g2
+{
+    background: url("./g3.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 500px;
+    width: 488px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.tri2
+{
+    position: absolute;
+    width: 488px;
+    height: 500px;
+    left: 250px;
+    top: 850px;
+    background: rgba(159, 7,83, 0.24);
+}
+.g3
+{   background: url("./g4.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 490px;
+    width: 488px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+.tri3
+{
+    position: absolute;
+    width: 488px;
+    height: 500px;
+    left: 950px;
+    top: 850px;
+    background: rgba(159, 7,83, 0.24);
+}
+.g4
+{
+    background: url("./g5.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 490px;
+    width: 488px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+.tri4
+{
+    position: absolute;
+    width: 488px;
+    height: 500px;
+    left: 250px;
+    top: 1600px;
+    background: rgba(159, 7,83, 0.24);
+}
+.g5
+{
+    background: url("./g6.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 490px;
+    width: 488px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+.tri5
+{
+    position: absolute;
+    width: 488px;
+    height: 500px;
+    left: 950px;
+    top: 1600px;
+    background: rgba(159, 7,83, 0.24);
+}
+.g6
+{
+    background: url("./g7.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 490px;
+    width: 488px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+.tri6
+{
+    position: absolute;
+    width: 488px;
+    height: 500px;
+    left: 250px;
+    top: 2400px;
+    background: rgba(159, 7,83, 0.24);
+}
+.g7
+{    background: url("./g8.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 490px;
+    width: 488px;
+    box-shadow: 5px 5px 5px 5px black; 
+
+}
+.tri7
+{
+    position: absolute;
+    width: 488px;
+    height: 500px;
+    left: 950px;
+    top: 2400px;
+    background: rgba(159, 7,83, 0.24);
+}
+.g8
+{
+    background: url("./g9.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 490px;
+    width: 488px;
+    box-shadow: 5px 5px 5px 5px black;
+}

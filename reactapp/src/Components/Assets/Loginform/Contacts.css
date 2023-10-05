@@ -1,0 +1,77 @@
+
+.panda
+{
+    background: url("./1321361.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+  
+.hea {
+    font-size: 70px;
+   margin-left: 7%;
+    margin-right: 2%;
+top:10%;
+  }
+  
+  .inn {
+    display: flex;
+
+  }
+  
+ 
+ 
+  
+  .sect{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5%;
+    margin-left: 30%;
+  }
+  
+  .sect textarea{
+    grid-column: 1 / -1;
+    resize: none;
+    width: 100%;
+    height: 180px;
+  }
+  
+  .sect textarea,
+  .sect input[type=text],
+  .sect input[type=email] {
+    background: #eee7e798;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: #090808;
+    margin-left: 50px;
+    margin-top: 50px;
+  
+  }
+  .but1
+  {
+    grid-column: 2 / -1;
+    width: 60%;
+    justify-self: end;
+    background: #2c8ec7;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 5%;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .inn{
+      flex-direction: column;
+    }
+    
+    .sect {
+      margin-top: 30px;
+    }
+    
+  }
