@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.ppfull{
+   padding-top: 60px;
+    
+}
+.ppcontent
+{
+    padding: 130px;
+    text-align: left;
+    padding-top: 20px;
+   
+
+}
+.pphead{
+    color: rgb(1, 1, 113);
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.pphead1{
+    margin-top: 30px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: "Josefin Sans",sans-serif;
+    margin-bottom: 10px;
+  
+}
+.ppara
+{
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 350;
+   
+}
+.ppspan
+{
+    font-weight: bold;
+    font-size: 17px;
+}

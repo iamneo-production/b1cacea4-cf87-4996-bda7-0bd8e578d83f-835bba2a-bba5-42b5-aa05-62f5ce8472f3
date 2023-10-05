@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fun
+{
+   padding-top: 150px;
+}
+.sq
+{
+    position: absolute;
+    width: 488px;
+    height: 500px;
+    left: 250px;
+    top: 130px;
+    background: rgba(159, 7, 83, 0.24);
+    border-radius: 50px;
+}
+.pine
+{
+    background: url("./pine.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 500px;
+    width: 488px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+.fk
+{
+    padding: 1px;
+    font-size: 23px;
+    margin-left: 800px;
+    margin-top: 60px;
+    text-align: left;
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+}
+.sq1
+{
+    position: absolute;
+    width: 488px;
+    height: 500px;
+    left: 950px;
+    top: 750px;
+    background: rgba(159, 7, 83, 0.24);
+    border-radius: 50px;
+}
+.man
+{
+    background: url("./man.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 500px;
+    width: 488px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.fk1
+{
+    padding: 1px;
+    font-size: 23px;
+    margin-left: 360px;
+    margin-top: 290px;
+    text-align:left;
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+   
+}
+.sq2
+{
+    position: absolute;
+    width: 488px;
+    height: 500px;
+    left: 250px;
+    top: 1490px;
+    background: rgba(159, 7, 83, 0.24);
+    border-radius: 50px;
+}
+.gav
+{
+    background: url("./gavi.gif");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 490px;
+    width: 488px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+.fk2
+{
+    padding: 1px;
+    font-size: 23px;
+    margin-left: 800px;
+    margin-top: 420px;
+    text-align: left;
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+}
+.sq3
+{
+    position: absolute;
+    width: 488px;
+    height: 500px;
+    left: 950px;
+    top: 2230px;
+    background: rgba(159, 7, 83, 0.24);
+    border-radius: 50px;
+}
+.mun
+{
+    background: url("./munnar-kerala.gif");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 490px;
+    width: 488px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+.fk3
+{
+    
+    padding: 1px;
+    font-size: 23px;
+    margin-left: 350px;
+    margin-top: 400px;
+    text-align: left;
+    color: rgba(2, 2, 2, 0.893);
+    font-weight: bold;
+}
+ p{
+    width: 500px;
+}

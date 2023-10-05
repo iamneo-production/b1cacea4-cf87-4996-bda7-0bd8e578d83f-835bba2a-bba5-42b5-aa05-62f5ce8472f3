@@ -1,0 +1,19 @@
+.videofull
+{
+    
+    padding-top: 100px;
+    font-size: 30px;
+}
+.player-wrapper {
+   
+    padding-top: 70px; 
+    margin-left: 10%;/* Player ratio: 100 / (1280 / 720) */
+  }
+  
+  .react-player 
+  {
+   
+    top: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+  }

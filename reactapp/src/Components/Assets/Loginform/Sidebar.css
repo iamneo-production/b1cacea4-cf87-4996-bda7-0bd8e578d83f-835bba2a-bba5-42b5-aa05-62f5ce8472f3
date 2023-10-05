@@ -1,0 +1,239 @@
+
+
+.sidebar
+{
+    position: fixed;
+    left: -210px;
+    width: 210px;
+    height: 100%;
+    background-color:   rgba(215, 210, 214, 0.575);
+    transition:  all .5s ease;
+}
+.sidebar h2{
+  
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background-color:   rgba(14, 10, 13, 0.942);
+    user-select: none;
+    margin-right: 0px;
+    margin-top: 1px;
+}
+.sidebar ul a
+{
+    display: block;
+    height: 50%;
+    width: 80%;
+    line-height: 55px;
+    font-size: 20px;
+    color: rgb(13, 11, 11);
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 20px;
+  
+   
+    transition: .4s;
+
+}
+
+
+#check{
+   display: none;
+   
+}
+label #menubar, label #close{
+    position: absolute;
+    cursor: pointer;
+    background-color:   rgba(20, 23, 20, 0.942);
+    border-radius: 3px;
+    position: fixed;
+}
+label #menubar{
+    left: 40px;
+    top: 10px;
+    font-size: 25px;
+    color: rgb(208, 197, 197);
+    padding: 6px 12px;
+    transition: all .5s ease;
+   
+    
+}
+label #close
+{
+    z-index: 1111;
+    left: -155px;
+    top: 17px;
+    font-size: 30px;
+    color: white;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+#check:checked ~ .sidebar
+{
+    left: 0;
+ }
+ #check:checked ~ label #menubar
+ {
+    left: 210px;
+    opacity: 0;
+    pointer-events: none;
+ }
+ #check:checked ~ label #close
+ {
+    left: 155px;
+   
+ }
+ #check:checked ~ .full2
+ {
+    margin-left: 210px;
+   
+ }
+ 
+.navbar
+{
+    width: 1600px;
+    height: 60px; 
+    margin: auto;
+    margin-left: 150px;
+    margin: 0;
+    background-color:  rgba(239, 242, 239, 0.601);
+    position: absolute;
+   position: fixed;
+}
+
+.icons
+{
+    width: 200px;
+    height: 70px;
+    float: left;
+    margin-left: 110px;
+    font-size: 24px;
+}
+
+.head
+{
+    color: rgba(6, 5, 5, 0.986);
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    font-weight: lighter;
+    padding-top: 22px;
+   
+   
+}
+.menu
+{
+    width: 400px;
+    float: left;
+    height: 70px;
+    position: fixed;
+    margin-left: 600px;
+    
+   
+}
+.menu ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.menu ul li
+{
+     list-style: none;
+     margin-left: 100px;
+     margin-top: 20px;
+     font-size: 20px;
+}
+.menu ul li a
+{
+    text-decoration: none;
+    color: rgba(7, 6, 6, 0.986);
+    font-family: Arial;
+    font-weight: lighter;
+   display: block;
+   font-size: 16px;
+    
+}
+.menu ul li a:hover
+{
+    color: skyblue;
+}
+
+    
+
+
+.content
+{
+    width: 1500px;
+    height: auto;
+    margin: auto;
+    color: white;
+  
+    
+    
+}
+.content .para
+{
+    font-size: 55px;
+   
+    margin-top: 10%;
+    margin-left: 22%;
+    letter-spacing: normal;
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    line-height: 75px;
+}
+
+
+.shopbut
+{
+    
+    width: 130px;
+    font-size: 18px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border-color: white;
+    
+    box-shadow: 0 3px 4px rgba(255, 255, 255, 0.986);
+    position: absolute;
+    
+}
+.tranbut
+{
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 22%;
+ 
+}
+.sec1
+{
+    font-size: 22;
+    font-family: 'Times New Roman';
+}
+.about,
+.service,
+.Design
+{
+    height: 100vh;
+    padding-top: 10px;
+    align-items: center;
+}
+.about
+{
+   background-color: rgb(230, 248, 130);
+}
+.service
+{
+   background-color: rgb(155, 249, 155);
+}
+.Design
+{
+    background-color: rgb(182, 237, 255);
+}

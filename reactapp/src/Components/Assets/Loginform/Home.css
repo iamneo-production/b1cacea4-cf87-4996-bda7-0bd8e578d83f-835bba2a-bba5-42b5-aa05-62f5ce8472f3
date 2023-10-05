@@ -1,0 +1,160 @@
+
+.pho
+{
+    background: url("./deer.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  
+    min-height: 100vh;
+    
+}
+.homee{
+    margin-top: 100px;
+}
+.head{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+    margin-top: 413px;
+    background: #343434;
+    margin-left: -600px;
+    
+}
+.container{
+    width: 1140px;
+   margin-top: auto;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.footer-content{
+    width: 33.3%;
+    color: rgb(200, 192, 192);
+    
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: rgb(200, 192, 192);
+    margin-left: 330px;
+    margin-top: 10px;
+  
+}
+.footer-content p{
+    width:190px;
+    margin: auto;
+    padding: 6px;
+    color: rgb(200, 192, 192);
+   margin-top: 10px;
+   margin-left: 300px;
+   font-size: 15px;
+    
+}
+.footer-content ul{
+    width: 100px;
+    margin: auto;
+    padding: 2px;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 1%;
+   color: white;
+}
+.list{
+    padding: 20px;
+   
+
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    color: white;
+    padding: 4px;
+    font-size:15px;
+    position: relative;
+}
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50px;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #f18930;
+    transition-duration: .5s;
+}
+.list li:hover::before{
+    width: 70px;
+}
+.social-icons{
+    text-align: center;
+  font-size: 10px;
+  padding: 1px;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+   padding: 10%;
+    
+}
+.social-icons i{
+    color: white;
+    font-size: 25px;
+    padding: 5%;
+}
+a{
+    text-decoration: none;
+    color: rgb(200, 192, 192);
+
+}
+a:hover{
+    color: #f18930;
+}
+.social-icons i:hover{
+    color: #f18930;
+}
+.bottom-bar{
+    background: #f18930;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+.bottom-bar p{
+    color: #343434;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+    margin-left: 30%;
+  
+}
+.footfull{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+   
+}
+.quotes
+{
+    text-align: center;
+    font-size: 50px;
+font-family: Arial, Helvetica, sans-serif;
+left: 600px;
+top: 200px;
+position: absolute;
+color: rgba(0, 0, 0, 0.749)
+
+
+    
+}

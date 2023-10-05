@@ -1,0 +1,87 @@
+.bgimg
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-bottom: 0px;
+}
+.rectangle666
+{
+    position: absolute;
+    width: 588px;
+  height: 750px;
+  top: 100px;
+  left: 300px;
+  background: #fdfcffb4;
+}
+.head666
+{
+    position: absolute;
+    top: 110px;
+    left: 350px;
+    width: 500px;
+    font-size: 45px;
+    font-size: 30px;
+    color: rgb(147, 22, 237);
+
+
+}
+.form666
+{
+    position: absolute;
+    top: 210px;
+    left: 350px;
+    font-size: 20px;
+    width: 460px;
+}
+input[type=text6666]
+{
+
+    size: 20;
+    height: 5%;
+    font-size: 15px;
+    width: 320px;
+} 
+input[type=radio]
+{
+    size: 10px;
+    height: 16px;
+    font-size: 20px;
+    width: 250px;
+
+}
+.yn
+{
+    position: absolute;
+    left: 360px;
+    top: 365px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.ot
+{
+   
+    position: absolute;
+    font-size: 20px;
+    left: 360px;
+    top: 610px;
+    line-height: 32px;
+}
+.but666
+{
+    position: absolute;
+    left: 180px;
+    top: 580px;
+
+}
+.abi666
+{ 
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(187, 20, 209);
+    border: #fdfcff;
+    border-radius: 1000px;
+    font-size: 18px;
+
+}
